@@ -30,42 +30,42 @@ const reviews = [
     reviewerId: 2,
     revieweeId: 1,
     feedback: "good!",
-    createdOn: "2021/10/10"
+    createdAt: "2021/10/10"
   },
   {
     id: 2,
     reviewerId: 2,
     revieweeId: 1,
     feedback: "good!",
-    createdOn: "2021/10/10"
+    createdAt: "2021/10/10"
   },
   {
     id: 3,
     reviewerId: 1,
     revieweeId: 2,
     feedback: "good!",
-    createdOn: "2021/10/10"
+    createdAt: "2021/10/10"
   },
   {
     id: 4,
     reviewerId: 1,
     revieweeId: 2,
     feedback: "good!",
-    createdOn: "2021/10/10"
+    createdAt: "2021/10/10"
   },
   {
     id: 5,
     reviewerId: 1,
     revieweeId: 3,
     feedback: "good!",
-    createdOn: "2021/10/10"
+    createdAt: "2021/10/10"
   },
   {
     id: 6,
     reviewerId: 2,
     revieweeId: 3,
     feedback: "good!",
-    createdOn: "2021/10/10"
+    createdAt: "2021/10/10"
   }
 ];
 
@@ -84,7 +84,7 @@ const typeDefs = gql`
     reviewer: User
     reviewee: User
     feedback: String
-    createdOn: String
+    createdAt: String
   }
 
   type Query {
